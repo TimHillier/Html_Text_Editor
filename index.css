@@ -2,7 +2,7 @@
 {
   font-family: "Aref Ruqaa";
   font-size: 18px;
-  height: 375px;
+  height: 500px;
 }
 #toolbar-container .ql-font span[data-label="Aref Ruqaa"]::before{
   font-family: "Aref Ruqaa";
@@ -28,40 +28,40 @@
   font-family: 'plumbdlregular';
 }
 
-/* .button{
-  background-color: rgb(136, 136, 136);
-  border: none;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-} */
-
 .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="10px"]::before {
-  content: 'extra-small';
-  font-size: 10px !important;
+  content: '10px';
+  /* font-size: 10px !important; */
 }
 .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="12px"]::before {
-  content: 'small';
-  font-size: 12px !important;
+  content: '12px';
+  /* font-size: 12px !important; */
 }
 
 .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="14px"]::before {
-  content: 'Normal';
-  font-size: 14px !important;
+  content: '14px';
+  /* font-size: 14px !important; */
 }
 
 .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="16px"]::before {
-  content: 'Large';
-  font-size: 16px !important;
+  content: '16px';
+  /* font-size: 16px !important; */
 }
 
 .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="18px"]::before {
-  content: 'Huge';
-  font-size: 18px !important;
+  content: '18px';
+  /* font-size: 18px !important; */
 }
 
+/* .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="72px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-label.ql-active[data-value="72px"]::before
+ {
+  content: '72px';
+  /* font-size: 72px !important; */
+/* } */ */
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="22px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-label.ql-active[data-value="22px"]::before {
+    content: '22px';
+}
 
 @font-face {
     font-family: 'plumbdlregular';

@@ -4,7 +4,7 @@ var fontSize = Quill.import('attributors/style/size');
 // var fontSize = Quill.import("formats/size")
 // var Font = Quill.import('attributors/style/font');
 Font.whitelist = ['mirza','roboto','plumbdl']
-fontSize.whitelist=['10px','12px','14px','16px','18px','32px']
+fontSize.whitelist=['10px','12px','14px','16px','18px','22px','24px','26px','28px','30px','32px','48px','72px']
 // fontSize.whitelist["extra-small","small","medium","large"]
 Quill.register(fontSize,true)
 Quill.register(Font,true)
